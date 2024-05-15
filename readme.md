@@ -1,6 +1,6 @@
  1. Commands run:
  - npm init -y
- - npm install json-sever --save-dev
+ - npm i json-server@0.17.4 --save-dev
 
  2. Populate db.json with mock data
 
