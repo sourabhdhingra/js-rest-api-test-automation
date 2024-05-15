@@ -28,3 +28,5 @@
 
 5. Install `superagent` as http-request library
     - `npm install superagent --save`
+
+6. Install `jest` as `npm i jest`
