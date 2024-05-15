@@ -25,3 +25,6 @@
     ```
 
 4. run `npx json-server --watch db.json` to start the mock server
+
+5. Install `superagent` as http-request library
+    - `npm install superagent --save`
