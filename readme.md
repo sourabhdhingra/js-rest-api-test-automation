@@ -39,3 +39,4 @@
         "test": "jest"
     }
     ```
+9. `json-server` configured in beforeAll and afterAll steps. One may avoid manual launch of server.
