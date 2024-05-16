@@ -1,21 +1,61 @@
 {
-    "users": [
-      { "id": 1, "name": "Alice Smith", "email": "alice@example.com" },
-      { "id": 2, "name": "Bob Jones", "email": "bob@example.com" }
-    ],
-    "accounts": [
-      { "id": 1, "userId": 1, "balance": 1000.00, "currency": "USD" },
-      { "id": 2, "userId": 2, "balance": 2000.00, "currency": "USD" }
-    ],
-    "transactions": [
-      { "id": 1, "accountId": 1, "amount": -100.00, "type": "debit", "description": "Grocery shopping", "date": "2024-05-01T10:00:00Z" },
-      { "id": 2, "accountId": 1, "amount": 200.00, "type": "credit", "description": "Salary", "date": "2024-05-02T15:00:00Z" },
-      { "id": 3, "accountId": 2, "amount": -50.00, "type": "debit", "description": "Book purchase", "date": "2024-05-03T11:00:00Z" },
-      { "id": 4, "accountId": 2, "amount": 100.00, "type": "credit", "description": "Freelance payment", "date": "2024-05-04T12:00:00Z" }
-    ],
-    "paymentMethods": [
-      { "id": 1, "userId": 1, "type": "credit_card", "provider": "Visa", "accountNumber": "**** **** **** 1234", "expiryDate": "2024-12-01" },
-      { "id": 2, "userId": 2, "type": "paypal", "provider": "PayPal", "accountEmail": "bob.paypal@example.com" }
-    ]
-  }
-  
+  "users": [
+    { "id": 1, "name": "Alice Smith", "email": "alice@example.com" },
+    { "id": 2, "name": "Bob Jones", "email": "bob@example.com" }
+  ],
+  "accounts": [
+    { "id": 1, "userId": 1, "balance": 1000.0, "currency": "USD" },
+    { "id": 2, "userId": 2, "balance": 2000.0, "currency": "USD" }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "accountId": 1,
+      "amount": -100.0,
+      "type": "debit",
+      "description": "Grocery shopping",
+      "date": "2024-05-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "accountId": 1,
+      "amount": 200.0,
+      "type": "credit",
+      "description": "Salary",
+      "date": "2024-05-02T15:00:00Z"
+    },
+    {
+      "id": 3,
+      "accountId": 2,
+      "amount": -50.0,
+      "type": "debit",
+      "description": "Book purchase",
+      "date": "2024-05-03T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "accountId": 2,
+      "amount": 100.0,
+      "type": "credit",
+      "description": "Freelance payment",
+      "date": "2024-05-04T12:00:00Z"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "credit_card",
+      "provider": "Visa",
+      "accountNumber": "**** **** **** 1234",
+      "expiryDate": "2024-12-01"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "type": "paypal",
+      "provider": "PayPal",
+      "accountEmail": "bob.paypal@example.com"
+    }
+  ]
+}
