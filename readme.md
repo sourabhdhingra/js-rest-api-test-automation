@@ -1,3 +1,9 @@
+### Rest API Automation using JS
+A project to demonstrate how Javscript can be used for rest api test automation
+-  `jest`: JS Testing framework
+- `superagent`: Small progressive client-side HTTP request library
+- `json-server`: to mock the rest api under test
+ 
  1. Commands run:
  - npm init -y
  - npm i json-server@0.17.4 --save-dev
