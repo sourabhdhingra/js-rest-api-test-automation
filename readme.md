@@ -6,7 +6,7 @@
 
  3. Explanation of the Entities:
 
-    ```
+    ```yaml
     Users:
         Represents the users of the payment service.
         Contains basic user information like id, name, and email.
@@ -30,3 +30,12 @@
     - `npm install superagent --save`
 
 6. Install `jest` as `npm i jest`
+
+7. In `api.test.js` - adding setUp to initialize db.json file.
+
+8. Run using `npx jest` or `npm run test`. For `npm run test` make sure below change is done
+    ```json
+        "scripts": {
+        "test": "jest"
+    }
+    ```
